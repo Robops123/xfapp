@@ -1,0 +1,248 @@
+{
+	"pages": [
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarBackgroundColor":"#070c43",
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				// #ifdef MP 
+				"navigationBarTitleText": "物联网消防安全管理"
+				//"navigationStyle": "custom",
+				// #endif 
+				// "navigationBarBackgroundColor":"#3866ef",
+				// "app-plus": {
+				// 	"titleNView": {
+				// 		"type": "transparent",
+				// 		"searchInput": {
+				// 			"backgroundColor": "rgba(231, 231, 231,.7)",
+				// 			"borderRadius": "16px",
+				// 			"placeholder": "工单、巡检...",
+				// 			"disabled": true,
+				// 			"placeholderColor": "#606266"
+				// 		},
+				// 		"buttons": [
+				// 			{
+				// 				"fontSrc": "/static/iconfont.ttf",
+				// 				"text": "\ue64d",
+				// 				"fontSize": "27",
+				// 				"color": "#303133",
+				// 				"background": "rgba(0,0,0,0)"
+				// 			}
+				// 		]
+				// 	}
+				// }
+			}
+		}
+		, {
+			"path": "pages/workorder/workorderlist",
+			"style": {
+				"navigationBarTitleText": "工单列表",
+				"navigationBarBackgroundColor":"#3866ef",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}
+		, {
+			"path": "pages/workorder/showOrder",
+			"style": {
+				"navigationBarTitleText": "工单查看",
+				"navigationBarBackgroundColor":"#3866ef",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}
+		, {
+			"path": "pages/workorder/editOrder",
+			"style": {
+				"navigationBarTitleText": "工单处置",
+				"navigationBarBackgroundColor":"#3866ef",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}
+		, {
+			"path": "pages/startPatrol/patrolDetail",
+			"style": {
+				"navigationBarTitleText": "巡检详情",
+				"navigationBarBackgroundColor":"#3866ef",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},{
+			"path": "pages/workorder/transferOrder",
+			"style": {
+				"navigationBarTitleText": "工单流转",
+				"navigationBarBackgroundColor":"#3866ef",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}
+		, {
+			"path": "pages/signIn/signIn",
+			"style": {
+				"navigationBarTitleText": "签到打卡",
+				"navigationBarBackgroundColor":"#3866ef",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}
+		, {
+			"path": "pages/remoteSilencer/remoteSilencer",
+			"style": {
+				"navigationBarTitleText": "远程消音",
+				"navigationBarBackgroundColor":"#3866ef",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}
+		, {
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "告警列表",
+				"navigationBarBackgroundColor":"#3866ef",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/startPatrol/startPatrol",
+			"style": {
+				"navigationBarTitleText": "开始巡检",
+				"navigationBarBackgroundColor":"#3866ef",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/startPatrol/report",
+			"style": {
+				"navigationBarTitleText": "隐患上报",
+				"navigationBarBackgroundColor":"#3866ef",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/startPatrol/startPatrolList",
+			"style": {
+				"navigationBarTitleText": "巡检记录",
+				"navigationBarBackgroundColor":"#3866ef",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/faultReport/faultReportList",
+			"style": {
+				"navigationBarTitleText": "故障列表",
+				"navigationBarBackgroundColor":"#3866ef",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/faultReport/faultReportEdit",
+			"style": {
+				"navigationBarTitleText": "故障上报",
+				"navigationBarBackgroundColor":"#3866ef",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/hidTrouble/hidTroubleList",
+			"style": {
+				"navigationBarTitleText": "隐患列表",
+				"navigationBarBackgroundColor":"#3866ef",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/hidTrouble/hidTroubleEdit",
+			"style": {
+				"navigationBarTitleText": "隐患上报",
+				"navigationBarBackgroundColor":"#3866ef",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/hidTrouble/hidTroubleDetail",
+			"style": {
+				"navigationBarTitleText": "上报详情",
+				"navigationBarBackgroundColor":"#3866ef",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "物联网消防安全管理",
+		"navigationBarBackgroundColor": "#3866ef",
+		"backgroundColor": "#f8f8f8"
+	},
+	"tabBar": {
+		"color": "#C0C4CC",
+		"selectedColor": "#4f82f8",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff"
+		/* "list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tab-home.png",
+				"selectedIconPath": "static/tab-home-current.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/workorder/showOrder",
+				"iconPath": "static/tab-cate.png",
+				"selectedIconPath": "static/tab-cate-current.png",
+				"text": "工单"
+			},
+			{
+				"pagePath": "pages/startPatrol/startPatrolList",
+				"iconPath": "static/tab-cart.png",
+				"selectedIconPath": "static/tab-cart-current.png",
+				"text": "巡检"
+			},
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tab-my.png",
+				"selectedIconPath": "static/tab-my-current.png",
+				"text": "我的"
+			}
+		] */
+	},
+	// ...
+	"permissions":{
+		// ...
+		"SQLite": {
+			"description": "SQLite数据库"
+		}
+	}
+}

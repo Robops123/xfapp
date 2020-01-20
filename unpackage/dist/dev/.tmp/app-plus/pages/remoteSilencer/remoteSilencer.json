@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "远程消音",
+  "navigationBarBackgroundColor": "#3866ef",
+  "bounce": "none",
+  "usingComponents": {
+    "m-search": "/components/m-search/m-search"
+  }
+}

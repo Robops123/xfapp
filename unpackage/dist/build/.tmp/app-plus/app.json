@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/workorder/workorderlist",
+    "pages/workorder/showOrder",
+    "pages/workorder/editOrder",
+    "pages/startPatrol/patrolDetail",
+    "pages/workorder/transferOrder",
+    "pages/signIn/signIn",
+    "pages/remoteSilencer/remoteSilencer",
+    "pages/message/message",
+    "pages/startPatrol/startPatrol",
+    "pages/startPatrol/report",
+    "pages/startPatrol/startPatrolList",
+    "pages/faultReport/faultReportList",
+    "pages/faultReport/faultReportEdit",
+    "pages/hidTrouble/hidTroubleList",
+    "pages/hidTrouble/hidTroubleEdit",
+    "pages/hidTrouble/hidTroubleDetail"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "物联网消防安全管理",
+    "navigationBarBackgroundColor": "#3866ef",
+    "backgroundColor": "#f8f8f8"
+  },
+  "tabBar": {
+    "color": "#C0C4CC",
+    "selectedColor": "#4f82f8",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff"
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "物联网消防安全管理",
+  "compilerVersion": "2.5.1",
+  "usingComponents": {}
+}

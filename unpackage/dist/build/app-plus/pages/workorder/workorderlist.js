@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"purchase-list { background-color: #f5f5f5; height: 100%; overflow: hidden; }\n.",[1],"purchase-list .",[1],"purchase-body { height: calc(100% - ",[0,88],"); overflow: auto; }\n",],undefined,{path:"./pages/workorder/workorderlist.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/workorder/workorderlist.wxml') } }));

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "工单列表",
+  "navigationBarBackgroundColor": "#3866ef",
+  "bounce": "none",
+  "usingComponents": {
+    "my-tabs": "/components/myTabs/myTabs",
+    "my-unit": "/components/myUnits/purchaseUnit/unit",
+    "my-loading": "/components/myLoading/myLoading"
+  }
+}

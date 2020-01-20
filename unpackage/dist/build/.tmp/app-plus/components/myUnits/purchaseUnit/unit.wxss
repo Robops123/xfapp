@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.my-unit {
+  margin: 20rpx 0;
+  background-color: #ffffff;
+  font-size: 28rpx;
+  -webkit-transform: all 1s;
+          transform: all 1s;
+}
+.my-unit .unit-head {
+    padding: 20rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    margin: 10px 0;
+    height: 80rpx;
+    box-sizing: border-box;
+    border-bottom: 2rpx solid #f5f5f5;
+    color: #b9b9b9;
+}
+.my-unit .unit-body {
+    padding: 20rpx;
+    position: relative;
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.my-unit .unit-body view {
+      display: inline-block;
+      width: 25%;
+      margin-right: 5%;
+      text-align: right;
+      color: #666;
+}
+.my-unit .unit-body text {
+      width: 60%;
+      display: inline-block;
+      font-size: 28rpx;
+      line-height: 55rpx;
+}
+.my-unit .unit-foot {
+    height: 88rpx;
+    padding: 0 20rpx;
+    border-top: 2rpx solid #f5f5f5;
+    border-bottom: none;
+    line-height: 88rpx;
+}
+.my-unit .unit-foot .btn {
+      float: left;
+      height: 60rpx;
+      font-size: 28rpx;
+      line-height: 60rpx;
+      margin: 14rpx 30rpx;
+}
+image {
+  width: 60rpx;
+  height: 60rpx;
+  -webkit-align-self: center;
+          align-self: center;
+}
+.arrow {
+  position: absolute;
+  right: 5%;
+  top: 45%;
+  height: 100%;
+  -webkit-align-self: center;
+          align-self: center;
+}
+

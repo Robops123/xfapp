@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "开始巡检",
+  "navigationBarBackgroundColor": "#3866ef",
+  "bounce": "none",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icon/uni-icon",
+    "uni-collapse": "/components/uni-collapse/uni-collapse",
+    "uni-collapse-item": "/components/uni-collapse-item/uni-collapse-item"
+  }
+}

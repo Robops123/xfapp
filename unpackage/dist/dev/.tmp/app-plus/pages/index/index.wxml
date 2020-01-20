@@ -1,0 +1,1 @@
+<view class="container"><view><zy-grid vue-id="1" showTip="{{true}}" col="{{4}}" bind:__l="__l"></zy-grid></view><block wx:if="{{loading}}"><view class="progress-box"><view>资源正在加载，请稍后...</view><progress percent="{{percent}}" show-info></progress></view></block></view>

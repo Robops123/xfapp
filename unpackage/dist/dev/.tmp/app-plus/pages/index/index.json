@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "zy-grid": "/components/zy-grid/zy-grid",
+    "u-charts": "/components/u-charts/u-charts"
+  }
+}

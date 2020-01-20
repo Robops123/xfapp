@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "工单流转",
+  "navigationBarBackgroundColor": "#3866ef",
+  "bounce": "none",
+  "usingComponents": {
+    "uni-steps": "/components/uni-steps/uni-steps",
+    "tki-tree": "/components/tki-tree/tki-tree"
+  }
+}

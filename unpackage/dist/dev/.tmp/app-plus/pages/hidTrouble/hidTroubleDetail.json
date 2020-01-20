@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "上报详情",
+  "navigationBarBackgroundColor": "#3866ef",
+  "bounce": "none",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icon/uni-icon"
+  }
+}
